@@ -6,7 +6,7 @@
         <div class="container d-flex flex-column flex-md-row justify-content-center align-items-center gap-md-4">
 			<a href="https://cs2.zkservidores.com" target="_blank" class="hero-small-box d-flex align-items-center gap-3 bg-dark bg-opacity-25 text-white text-decoration-none">
                 <div>
-                    <h2 class="m-0 fs-5"><span>Skin Changer</span></h2>
+                    <h2 class="m-0 fs-5"><span>Skinchanger</span></h2>
 					<p class="m-0"><a href="https://cs2.zkservidores.com" target="_blank" class="hero-small-box d-flex align-items-center gap-3 bg-dark bg-opacity-25 text-white text-decoration-none">cs2.zkservidores.com</a></p>
                 </div>
 				<i class="{{theme_config('hero.discord.icon') ?? 'bi bi-person-fill-gear'}} fs-1"></i>
