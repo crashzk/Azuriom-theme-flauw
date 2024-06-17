@@ -28,7 +28,7 @@
                     <p class="text-white-50">Votez pour {{site_name()}} sur <a href="@if(!theme_config('footer.right.serveurliste.link')) https://www.serveurliste.com @else {{theme_config('footer.right.serveurliste.link')}} @endif" target="_blank">serveurliste.com</a></p>
                 @endif
                 <div>
-                    <a href="{{theme_config('footer.right.url') ?? '/shop'}}" class="btn btn-primary">{{theme_config('footer.right.text') ?? 'Boutique'}}</a>
+                    <a href="{{theme_config('footer.right.url') ?? '/shop'}}" class="btn btn-primary"><strong>{{theme_config('footer.right.text') ?? 'Boutique'}}</strong></a>
                 </div>
             </div>
         </div>
