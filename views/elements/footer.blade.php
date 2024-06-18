@@ -7,6 +7,7 @@
                     {{theme_config('footer.left.paragraph') ?? 'orem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, neque orem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, neque?'}}
                 </p>
             </div>
+			
             <div class="col-md-3">
                 <h2 class="fs-4 text-white">{{theme_config('footer.middle.title') ?? 'Liens utiles'}}</h2>
                 <ul class="list-unstyled m-0 text-white-50">
@@ -19,6 +20,7 @@
                     @endif
                 </ul>
             </div>
+			
             <div class="col-md-3 d-flex flex-column">
                 <h2 class="fs-4 text-white">{{theme_config('footer.right.title') ?? 'Nous soutenir'}}</h2>
                 <p class="text-white-50 @if(!theme_config('footer.right.serveurliste.active')) mb-1 @endif">
@@ -32,7 +34,9 @@
                 </div>
             </div>
         </div>
+		
         <hr>
+		
         <div>
             <ul class="list-unstyled d-flex align-items-center justify-content-center m-0">
                 @foreach(social_links() as $link)
@@ -46,9 +50,11 @@
                 @endforeach
             </ul>
         </div>
+		
         <div class="text-center text-white-50 mb-4">
 			<p class="m-0">ZK Servidores™ - Melhores Servidores da Comunidade BR</p>
 			@if(setting('copyright')) <p class="m-0">{{ setting('copyright') }}</p> @endif
         </div>
+		
     </div>
 </div>

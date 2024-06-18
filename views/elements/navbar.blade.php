@@ -33,6 +33,7 @@
         </div>
     </div>
 </nav>
+
 <div class="bg-dark bg-opacity-25 py-2">
     <div class="container d-flex align-items-center justify-content-between">
         <ul class="d-flex list-unstyled m-0 gap-3">

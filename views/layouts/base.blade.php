@@ -6,7 +6,9 @@
     function hexToRGB($theme_path){return implode(", ", sscanf($theme_path, "#%02x%02x%02x"));}
     function RGBnocommas($rgb){return str_replace(',', '', $rgb);}
 @endphp
+
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -90,7 +92,6 @@
 </head>
 
 <body>
-
 <div id="app">
     <header class="position-absolute end-0 start-0 top-0">
         @include('elements.navbar')
@@ -98,6 +99,7 @@
 
     @yield('app')
 </div>
+
 <footer class="@if(!theme_config('footer.box.toggle')) bg-dark @else bg-body @endif mt-auto py-4">
     @if(!theme_config('footer.box.toggle'))
         @include('elements.footer')
@@ -114,7 +116,9 @@
         serverCounterSpan.innerHTML = ""
         if(serverCounter.innerText.includes('{online}')){serverCounter.innerText = serverCounter.innerText.replace('{online}', serverSpan) }
 </script>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.10/clipboard.min.js"></script>
+
 <script type="text/javascript">
     var clipboard = new ClipboardJS('.copy_ip')
     clipboard.on('success', function(e) {
