@@ -30,6 +30,8 @@ return [
     'left' => 'Gauche',
     'right' => 'Droite',
     'news' => 'Nouveautés',
+    'home' => 'Accueil',
+    'show_servers' => 'Afficher les serveurs',
     'other_page' => 'Ouvrir dans un nouvel onglet',
     'ip_when_copied' => 'Texte quand l\'ip est copié',
     'online' => 'En ligne',

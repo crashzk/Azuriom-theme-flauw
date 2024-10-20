@@ -65,6 +65,14 @@
             </div>
             <div class="card bg-secondary bg-opacity-10">
                 <div class="card-header bg-secondary bg-opacity-25">
+                    <h2 class="fw-bold fs-3 m-0 text-uppercase">{{trans('theme::admin.home')}}</h2>
+                </div>
+                <div class="card-body d-flex flex-column flex-md-row gap-3">
+                    @include('admin.home')
+                </div>
+            </div>
+            <div class="card bg-secondary bg-opacity-10">
+                <div class="card-header bg-secondary bg-opacity-25">
                     <h2 class="fw-bold fs-3 m-0 text-uppercase">{{trans('theme::admin.footer')}}</h2>
                 </div>
                 <div class="card-body d-flex flex-column gap-3">

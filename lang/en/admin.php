@@ -30,6 +30,8 @@ return [
     'left' => 'Left',
     'right' => 'Right',
     'news' => 'News',
+    'home' => 'Home',
+    'show_servers' => 'Show servers',
     'other_page' => 'Open on other page',
     'ip_when_copied' => 'Text when ip are copied',
     'online' => 'Online',
